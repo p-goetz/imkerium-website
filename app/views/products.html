@@ -1,0 +1,29 @@
+    <div class="container theme-showcase" role="main">
+
+      <div class="page-header">
+        <h1>{{beekeeper}}</h1>
+      </div>
+
+      <div ng-repeat="product in products">
+        <h2>{{product.title}}</h2>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-4"><img ng-src="{{product.image}}" alt="{{product.title}}" class="img-responsive img-rounded" /></div>
+          <div class="col-xs-12 col-md-8">
+            <table class="table table-condensed">
+              <tr>
+                <td>Beschreibung:</td>
+                <td>{{product.description}}</td>
+              </tr>
+              <tr>
+                <td>Größe:</td>
+                <td>{{product.size}}</td>
+              </tr>
+              <tr>
+                <td>Preis:</td>
+                <td>{{product.price}}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </div>

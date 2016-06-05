@@ -1,0 +1,50 @@
+    <div class="container theme-showcase" role="main" ng-controller="AboutController">
+
+      <div class="page-header">
+        <h1>{{beekeeper}}</h1>
+      </div>
+
+      <h2>Adresse</h2>
+
+      <address>
+        <strong>{{contact.address.name}}</strong><br/>
+        {{contact.address.street}}<br/>
+        {{contact.address.city}}<br/>
+      </address>
+
+      <address>
+        <i class="fa fa-phone"></i>: <a href="tel:{{contact.phone}}">{{contact.phone}}</a><br/>
+        <i class="fa fa-envelope"></i>: <a href="mailto:{{contact.email}}">{{contact.email}}</a><br/>
+        <i class="fa fa-twitter"></i>: {{contact.twitter}}
+      </address>
+
+      <h2>Schreiben Sie uns</h2>
+
+      <div ng-controller="ContactController">
+        <form class="form-horizontal" name="feedbackForm" ng-submit="sendFeedback()" >
+          <div class="form-group">
+              <label for="from" class="col-sm-3 control-label">E-Mail</label>
+              <div class="col-sm-9">
+                  <input type="email" class="form-control" id="from" ng-model="feedback.from" placeholder="E-Mail">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="subject" class="col-sm-3 control-label">Betreff</label>                        <div class="col-sm-9">
+              <input type="text" class="form-control" id="subject" ng-model="feedback.subject" placeholder="Betreff">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="message" class="col-sm-3 control-label">Ihre Nachricht</label>
+              <div class="col-sm-9">
+                  <textarea class="form-control" id="message" ng-model="feedback.message" rows="12"></textarea>
+              </div>
+          </div>
+          <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                  <input type="hidden" ng-model="feedback.to" value="{{contact.email}}"/>
+                  <button type="submit" class="btn btn-primary pull-right">Abschicken</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>

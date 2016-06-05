@@ -1,0 +1,51 @@
+{
+  "name": "Imkerei Peter Götz",
+  "information": [
+    {
+      "title": "Wer ich bin",
+      "description": "Ich heiße Peter Götz und bin ein Freizeitimker. Ich halte seit 2008 Bienen in und um Kaufering und bin fasziniert von der Komplexität und Schönheit der Bienenvölker. ",
+      "image": "images/dummy.png"
+    },
+    {
+      "title": "Wo ich herkomme",
+      "description": "Ich komme aus Kaufering, meine Bienenvölker stehen in Kaufering Dorf. Ich habe einen Teil meiner Völker direkt im Landschaftsschutzgebiet am Lech in einer schönen Streuobstwiese. Meine restlichen Völker leben nahe der Kirche im Kauferinger Dorf. Falls Sie Kontakt mit mir aufnehmen wollen, besuchen Sie bitte die Kontaktseite. ",
+      "image": "images/dummy.png"
+    },
+    {
+      "title": "Was ich mache",
+      "description": "Ich imkere als Freizeitimker und betreibe deshalb die Imkerei nicht aus finanziellen Gründen. In guten Jahren bringen meine Bienen trotzdem genug Honig ein, so dass ich neben dem Eigenbedarf auch Honig abgeben kann. Außerdem schmelze und reinige ich das überschüssige Wachs und verkaufe es in Form von Blöcken. Besuchen Sie die Produktseite, um mehr darüber zu erfahren. ",
+      "image": "images/dummy.png"
+    }
+  ],
+  "products": [
+    {
+      "title": "Blütenhonig",
+      "description": "Mein Blütenhonig kommt aus dem schönen Landschaftsschutzgebiet am Lech in Kaufering. Es handelt sich um einen vielfältigen Blütenmischhonig mit einem kräftigen Aroma. ",
+      "size": "500g Glas",
+      "price": "5,50 €",
+      "image": "images/dummy.png"
+    },
+    {
+      "title": "Waldhonig",
+      "description": "In guten Jahren bringen meine Bienen neben dem Blütenhonig auch Waldhonig ein. Dieser ist dunkler und kräftiger und hat einen sehr angenehmen Geschmack. ",
+      "size": "500g Glas",
+      "price": "6,50 €",
+      "image": "images/dummy.png"
+    },
+    {
+      "title": "Bienenwachs",
+      "description": "Meine Bienen produzieren für Ihre Stöcke jedes Jahr neues Wachs. Das alte Wachs nehme ich jeweils heraus, schmelze es ein und reinige es. Ich gieße es danach in Blöcke, die ich verkaufe. Man kann damit Kerzen gießen oder ziehen oder das Wachs z.B. für Kosmetika verwenden. ",
+      "size": "Blöcke von 1-2kg",
+      "price": "8,- € / kg",
+      "image": "images/dummy.png"
+    }
+  ],
+  "address": {
+    "name": "Imkerei Peter Götz",
+    "street": "Ahornring 38",
+    "city": "86916 Kaufering"
+  },
+  "phone": "+49 173 211 00 41",
+  "email": "pgoetz@imkerium.de",
+  "twitter": "@imkerei.peter.goetz"
+}
