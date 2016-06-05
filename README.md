@@ -25,4 +25,4 @@ Bootstrap and AngularJS website to provide information about beekeepers, their p
 
 ## Run 
 
-deploy '''app/''' content to web server and serve '''index.html'''.
+deploy ```app/``` content to web server and serve ```index.html```.
